@@ -6,6 +6,6 @@ def main(s):
     Returns:
         int: answer
     """
-    if s.isnumeric():
+    if s.isdigit():
         return int(s)
     return -1
