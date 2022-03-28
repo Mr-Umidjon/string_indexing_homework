@@ -6,7 +6,7 @@ def main(s):
     Returns:
         int: answer
     """
-    return s[0].isnumeric() + s[1].isnumeric() + s[2].isnumeric() + s[3].isnumeric() + s[4].isnumeric()
+    return s[0].isdigit() + s[1].isdigit() + s[2].isdigit() + s[3].isdigit() + s[4].isdigit()
 
 
 print(main("32x3z"))
